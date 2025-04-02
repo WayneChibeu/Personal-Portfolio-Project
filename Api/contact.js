@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
-// Replace with your MongoDB connection string
-const uri = mongodb+srv://<portfolio-user>:<eYk3GcIhIVHRAwJ1>@cluster1.u7nbcww.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1;
+// Access the MongoDB connection string from environment variables
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri);
 

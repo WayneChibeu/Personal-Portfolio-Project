@@ -16,7 +16,7 @@ This is my personal portfolio website, designed to showcase my skills, projects,
   
 * Backend technologies, e.g., Node.js for the contact form Vercel function, and the MongoDB driver
 
-#### 4. Live Demo: https://personal-portfolio-project-nine.vercel.app/
+#### 4. Live Demo: https://waynechibeu-portfolio.vercel.app/
 
 ##### 5. Contact Information:
 

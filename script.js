@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => response.json())
             .then(data => {
                 if (data.message) {
-                    alert(data.message); // You can replace this with a nicer message on your page later
+                    alert(data.message); 
                     contactForm.reset(); // Clear the form after successful submission
                 } else if (data.error) {
-                    alert(data.error); // You can replace this with a nicer error message
+                    alert(data.error); 
                 }
             })
             .catch(error => {

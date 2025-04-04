@@ -313,6 +313,14 @@ social-links a:hover {
 }
 
 /* Contact Section */
+#contact {
+  padding: 40px 20px 40px 20px; /* top | right | bottom | left - Changed top to 40px */
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  color: #1A1D23; /* Darker Navy Blue for text */
+}
+
 #contact form {
   max-width: 600px;
   margin: 0 auto;
@@ -502,4 +510,16 @@ html {
 #read-more-btn:hover {
   background-color: coral;
   color: #000;
+}
+
+.fa-whatsapp {
+  color: #25D366; 
+}
+
+.fa-envelope {
+  color: #e4405f; 
+}
+
+.fa-phone {
+  color: #128C7E; 
 }
